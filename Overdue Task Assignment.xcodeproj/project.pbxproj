@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		688459791965125D0046CD83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688459781965125D0046CD83 /* Foundation.framework */; };
+		6884597B1965125D0046CD83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6884597A1965125D0046CD83 /* CoreGraphics.framework */; };
+		6884597D1965125D0046CD83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6884597C1965125D0046CD83 /* UIKit.framework */; };
+		688459831965125D0046CD83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 688459811965125D0046CD83 /* InfoPlist.strings */; };
+		688459851965125D0046CD83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 688459841965125D0046CD83 /* main.m */; };
+		688459891965125D0046CD83 /* VONAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 688459881965125D0046CD83 /* VONAppDelegate.m */; };
+		6884598C1965125D0046CD83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6884598A1965125D0046CD83 /* Main.storyboard */; };
+		6884598F1965125D0046CD83 /* VONViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6884598E1965125D0046CD83 /* VONViewController.m */; };
+		688459911965125D0046CD83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 688459901965125D0046CD83 /* Images.xcassets */; };
+		688459981965125D0046CD83 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688459971965125D0046CD83 /* XCTest.framework */; };
+		688459991965125D0046CD83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688459781965125D0046CD83 /* Foundation.framework */; };
+		6884599A1965125D0046CD83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6884597C1965125D0046CD83 /* UIKit.framework */; };
+		688459A21965125D0046CD83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 688459A01965125D0046CD83 /* InfoPlist.strings */; };
+		688459A41965125D0046CD83 /* Overdue_Task_AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 688459A31965125D0046CD83 /* Overdue_Task_AssignmentTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6884599B1965125D0046CD83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6884596D1965125D0046CD83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 688459741965125D0046CD83;
+			remoteInfo = "Overdue Task Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		688459751965125D0046CD83 /* Overdue Task Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Overdue Task Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		688459781965125D0046CD83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6884597A1965125D0046CD83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6884597C1965125D0046CD83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		688459801965125D0046CD83 /* Overdue Task Assignment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Overdue Task Assignment-Info.plist"; sourceTree = "<group>"; };
+		688459821965125D0046CD83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		688459841965125D0046CD83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		688459861965125D0046CD83 /* Overdue Task Assignment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Overdue Task Assignment-Prefix.pch"; sourceTree = "<group>"; };
+		688459871965125D0046CD83 /* VONAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VONAppDelegate.h; sourceTree = "<group>"; };
+		688459881965125D0046CD83 /* VONAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VONAppDelegate.m; sourceTree = "<group>"; };
+		6884598B1965125D0046CD83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6884598D1965125D0046CD83 /* VONViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VONViewController.h; sourceTree = "<group>"; };
+		6884598E1965125D0046CD83 /* VONViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VONViewController.m; sourceTree = "<group>"; };
+		688459901965125D0046CD83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		688459961965125D0046CD83 /* Overdue Task AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Overdue Task AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		688459971965125D0046CD83 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6884599F1965125D0046CD83 /* Overdue Task AssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Overdue Task AssignmentTests-Info.plist"; sourceTree = "<group>"; };
+		688459A11965125D0046CD83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		688459A31965125D0046CD83 /* Overdue_Task_AssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Overdue_Task_AssignmentTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		688459721965125D0046CD83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6884597B1965125D0046CD83 /* CoreGraphics.framework in Frameworks */,
+				6884597D1965125D0046CD83 /* UIKit.framework in Frameworks */,
+				688459791965125D0046CD83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688459931965125D0046CD83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688459981965125D0046CD83 /* XCTest.framework in Frameworks */,
+				6884599A1965125D0046CD83 /* UIKit.framework in Frameworks */,
+				688459991965125D0046CD83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6884596C1965125D0046CD83 = {
+			isa = PBXGroup;
+			children = (
+				6884597E1965125D0046CD83 /* Overdue Task Assignment */,
+				6884599D1965125D0046CD83 /* Overdue Task AssignmentTests */,
+				688459771965125D0046CD83 /* Frameworks */,
+				688459761965125D0046CD83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		688459761965125D0046CD83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				688459751965125D0046CD83 /* Overdue Task Assignment.app */,
+				688459961965125D0046CD83 /* Overdue Task AssignmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		688459771965125D0046CD83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				688459781965125D0046CD83 /* Foundation.framework */,
+				6884597A1965125D0046CD83 /* CoreGraphics.framework */,
+				6884597C1965125D0046CD83 /* UIKit.framework */,
+				688459971965125D0046CD83 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6884597E1965125D0046CD83 /* Overdue Task Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				688459871965125D0046CD83 /* VONAppDelegate.h */,
+				688459881965125D0046CD83 /* VONAppDelegate.m */,
+				6884598A1965125D0046CD83 /* Main.storyboard */,
+				6884598D1965125D0046CD83 /* VONViewController.h */,
+				6884598E1965125D0046CD83 /* VONViewController.m */,
+				688459901965125D0046CD83 /* Images.xcassets */,
+				6884597F1965125D0046CD83 /* Supporting Files */,
+			);
+			path = "Overdue Task Assignment";
+			sourceTree = "<group>";
+		};
+		6884597F1965125D0046CD83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				688459801965125D0046CD83 /* Overdue Task Assignment-Info.plist */,
+				688459811965125D0046CD83 /* InfoPlist.strings */,
+				688459841965125D0046CD83 /* main.m */,
+				688459861965125D0046CD83 /* Overdue Task Assignment-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6884599D1965125D0046CD83 /* Overdue Task AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				688459A31965125D0046CD83 /* Overdue_Task_AssignmentTests.m */,
+				6884599E1965125D0046CD83 /* Supporting Files */,
+			);
+			path = "Overdue Task AssignmentTests";
+			sourceTree = "<group>";
+		};
+		6884599E1965125D0046CD83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6884599F1965125D0046CD83 /* Overdue Task AssignmentTests-Info.plist */,
+				688459A01965125D0046CD83 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		688459741965125D0046CD83 /* Overdue Task Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688459A71965125D0046CD83 /* Build configuration list for PBXNativeTarget "Overdue Task Assignment" */;
+			buildPhases = (
+				688459711965125D0046CD83 /* Sources */,
+				688459721965125D0046CD83 /* Frameworks */,
+				688459731965125D0046CD83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Overdue Task Assignment";
+			productName = "Overdue Task Assignment";
+			productReference = 688459751965125D0046CD83 /* Overdue Task Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		688459951965125D0046CD83 /* Overdue Task AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688459AA1965125D0046CD83 /* Build configuration list for PBXNativeTarget "Overdue Task AssignmentTests" */;
+			buildPhases = (
+				688459921965125D0046CD83 /* Sources */,
+				688459931965125D0046CD83 /* Frameworks */,
+				688459941965125D0046CD83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6884599C1965125D0046CD83 /* PBXTargetDependency */,
+			);
+			name = "Overdue Task AssignmentTests";
+			productName = "Overdue Task AssignmentTests";
+			productReference = 688459961965125D0046CD83 /* Overdue Task AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6884596D1965125D0046CD83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VON;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = von;
+				TargetAttributes = {
+					688459951965125D0046CD83 = {
+						TestTargetID = 688459741965125D0046CD83;
+					};
+				};
+			};
+			buildConfigurationList = 688459701965125D0046CD83 /* Build configuration list for PBXProject "Overdue Task Assignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6884596C1965125D0046CD83;
+			productRefGroup = 688459761965125D0046CD83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				688459741965125D0046CD83 /* Overdue Task Assignment */,
+				688459951965125D0046CD83 /* Overdue Task AssignmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		688459731965125D0046CD83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688459911965125D0046CD83 /* Images.xcassets in Resources */,
+				688459831965125D0046CD83 /* InfoPlist.strings in Resources */,
+				6884598C1965125D0046CD83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688459941965125D0046CD83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688459A21965125D0046CD83 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		688459711965125D0046CD83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688459891965125D0046CD83 /* VONAppDelegate.m in Sources */,
+				688459851965125D0046CD83 /* main.m in Sources */,
+				6884598F1965125D0046CD83 /* VONViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688459921965125D0046CD83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688459A41965125D0046CD83 /* Overdue_Task_AssignmentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6884599C1965125D0046CD83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 688459741965125D0046CD83 /* Overdue Task Assignment */;
+			targetProxy = 6884599B1965125D0046CD83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		688459811965125D0046CD83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				688459821965125D0046CD83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6884598A1965125D0046CD83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6884598B1965125D0046CD83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		688459A01965125D0046CD83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				688459A11965125D0046CD83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		688459A51965125D0046CD83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		688459A61965125D0046CD83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		688459A81965125D0046CD83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Overdue Task Assignment/Overdue Task Assignment-Prefix.pch";
+				INFOPLIST_FILE = "Overdue Task Assignment/Overdue Task Assignment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		688459A91965125D0046CD83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Overdue Task Assignment/Overdue Task Assignment-Prefix.pch";
+				INFOPLIST_FILE = "Overdue Task Assignment/Overdue Task Assignment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		688459AB1965125D0046CD83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Overdue Task Assignment.app/Overdue Task Assignment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Overdue Task Assignment/Overdue Task Assignment-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Overdue Task AssignmentTests/Overdue Task AssignmentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		688459AC1965125D0046CD83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Overdue Task Assignment.app/Overdue Task Assignment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Overdue Task Assignment/Overdue Task Assignment-Prefix.pch";
+				INFOPLIST_FILE = "Overdue Task AssignmentTests/Overdue Task AssignmentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		688459701965125D0046CD83 /* Build configuration list for PBXProject "Overdue Task Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688459A51965125D0046CD83 /* Debug */,
+				688459A61965125D0046CD83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		688459A71965125D0046CD83 /* Build configuration list for PBXNativeTarget "Overdue Task Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688459A81965125D0046CD83 /* Debug */,
+				688459A91965125D0046CD83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		688459AA1965125D0046CD83 /* Build configuration list for PBXNativeTarget "Overdue Task AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688459AB1965125D0046CD83 /* Debug */,
+				688459AC1965125D0046CD83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6884596D1965125D0046CD83 /* Project object */;
+}
