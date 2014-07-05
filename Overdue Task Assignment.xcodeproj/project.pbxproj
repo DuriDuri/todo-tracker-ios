@@ -14,13 +14,17 @@
 		688459851965125D0046CD83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 688459841965125D0046CD83 /* main.m */; };
 		688459891965125D0046CD83 /* VONAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 688459881965125D0046CD83 /* VONAppDelegate.m */; };
 		6884598C1965125D0046CD83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6884598A1965125D0046CD83 /* Main.storyboard */; };
-		6884598F1965125D0046CD83 /* VONViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6884598E1965125D0046CD83 /* VONViewController.m */; };
 		688459911965125D0046CD83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 688459901965125D0046CD83 /* Images.xcassets */; };
 		688459981965125D0046CD83 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688459971965125D0046CD83 /* XCTest.framework */; };
 		688459991965125D0046CD83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688459781965125D0046CD83 /* Foundation.framework */; };
 		6884599A1965125D0046CD83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6884597C1965125D0046CD83 /* UIKit.framework */; };
 		688459A21965125D0046CD83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 688459A01965125D0046CD83 /* InfoPlist.strings */; };
 		688459A41965125D0046CD83 /* Overdue_Task_AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 688459A31965125D0046CD83 /* Overdue_Task_AssignmentTests.m */; };
+		688459B6196513840046CD83 /* VONDetailedTaskObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 688459B5196513840046CD83 /* VONDetailedTaskObjectViewController.m */; };
+		688459B9196514400046CD83 /* VONAddTaskObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 688459B8196514400046CD83 /* VONAddTaskObjectViewController.m */; };
+		688459BC196515440046CD83 /* VONEditTaskObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 688459BB196515440046CD83 /* VONEditTaskObjectViewController.m */; };
+		688459BF196515E20046CD83 /* VONTaskObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 688459BE196515E20046CD83 /* VONTaskObject.m */; };
+		688459C21965170C0046CD83 /* VONTaskObjectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 688459C11965170C0046CD83 /* VONTaskObjectTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +49,22 @@
 		688459871965125D0046CD83 /* VONAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VONAppDelegate.h; sourceTree = "<group>"; };
 		688459881965125D0046CD83 /* VONAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VONAppDelegate.m; sourceTree = "<group>"; };
 		6884598B1965125D0046CD83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6884598D1965125D0046CD83 /* VONViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VONViewController.h; sourceTree = "<group>"; };
-		6884598E1965125D0046CD83 /* VONViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VONViewController.m; sourceTree = "<group>"; };
 		688459901965125D0046CD83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		688459961965125D0046CD83 /* Overdue Task AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Overdue Task AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		688459971965125D0046CD83 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6884599F1965125D0046CD83 /* Overdue Task AssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Overdue Task AssignmentTests-Info.plist"; sourceTree = "<group>"; };
 		688459A11965125D0046CD83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		688459A31965125D0046CD83 /* Overdue_Task_AssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Overdue_Task_AssignmentTests.m; sourceTree = "<group>"; };
+		688459B4196513840046CD83 /* VONDetailedTaskObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONDetailedTaskObjectViewController.h; sourceTree = "<group>"; };
+		688459B5196513840046CD83 /* VONDetailedTaskObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONDetailedTaskObjectViewController.m; sourceTree = "<group>"; };
+		688459B7196514400046CD83 /* VONAddTaskObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONAddTaskObjectViewController.h; sourceTree = "<group>"; };
+		688459B8196514400046CD83 /* VONAddTaskObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONAddTaskObjectViewController.m; sourceTree = "<group>"; };
+		688459BA196515440046CD83 /* VONEditTaskObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONEditTaskObjectViewController.h; sourceTree = "<group>"; };
+		688459BB196515440046CD83 /* VONEditTaskObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONEditTaskObjectViewController.m; sourceTree = "<group>"; };
+		688459BD196515E20046CD83 /* VONTaskObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONTaskObject.h; sourceTree = "<group>"; };
+		688459BE196515E20046CD83 /* VONTaskObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONTaskObject.m; sourceTree = "<group>"; };
+		688459C01965170C0046CD83 /* VONTaskObjectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONTaskObjectTableViewController.h; sourceTree = "<group>"; };
+		688459C11965170C0046CD83 /* VONTaskObjectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONTaskObjectTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +124,11 @@
 		6884597E1965125D0046CD83 /* Overdue Task Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				688459B11965130C0046CD83 /* Models */,
+				688459B2196513140046CD83 /* Views */,
+				688459B31965131A0046CD83 /* Controllers */,
 				688459871965125D0046CD83 /* VONAppDelegate.h */,
 				688459881965125D0046CD83 /* VONAppDelegate.m */,
-				6884598A1965125D0046CD83 /* Main.storyboard */,
-				6884598D1965125D0046CD83 /* VONViewController.h */,
-				6884598E1965125D0046CD83 /* VONViewController.m */,
 				688459901965125D0046CD83 /* Images.xcassets */,
 				6884597F1965125D0046CD83 /* Supporting Files */,
 			);
@@ -150,6 +162,38 @@
 				688459A01965125D0046CD83 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		688459B11965130C0046CD83 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				688459BD196515E20046CD83 /* VONTaskObject.h */,
+				688459BE196515E20046CD83 /* VONTaskObject.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		688459B2196513140046CD83 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6884598A1965125D0046CD83 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		688459B31965131A0046CD83 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				688459B7196514400046CD83 /* VONAddTaskObjectViewController.h */,
+				688459B8196514400046CD83 /* VONAddTaskObjectViewController.m */,
+				688459B4196513840046CD83 /* VONDetailedTaskObjectViewController.h */,
+				688459B5196513840046CD83 /* VONDetailedTaskObjectViewController.m */,
+				688459BA196515440046CD83 /* VONEditTaskObjectViewController.h */,
+				688459BB196515440046CD83 /* VONEditTaskObjectViewController.m */,
+				688459C01965170C0046CD83 /* VONTaskObjectTableViewController.h */,
+				688459C11965170C0046CD83 /* VONTaskObjectTableViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				688459B9196514400046CD83 /* VONAddTaskObjectViewController.m in Sources */,
+				688459BC196515440046CD83 /* VONEditTaskObjectViewController.m in Sources */,
+				688459B6196513840046CD83 /* VONDetailedTaskObjectViewController.m in Sources */,
+				688459BF196515E20046CD83 /* VONTaskObject.m in Sources */,
+				688459C21965170C0046CD83 /* VONTaskObjectTableViewController.m in Sources */,
 				688459891965125D0046CD83 /* VONAppDelegate.m in Sources */,
 				688459851965125D0046CD83 /* main.m in Sources */,
-				6884598F1965125D0046CD83 /* VONViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  VONViewController.h
+//  VONTaskObjectViewController.h
 //  Overdue Task Assignment
 //
 //  Created by Duri Abdurahman Duri on 7/3/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VONViewController : UIViewController
+@interface VONTaskObjectViewController : UIViewController
 
 @end
